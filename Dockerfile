@@ -6,7 +6,7 @@ RUN apt update -y && apt install -y \
     openssh-server sudo curl wget git ca-certificates \
     net-tools iproute2 tzdata htop neofetch \
     systemd systemd-sysv dbus dbus-x11 \
-    lxc lxd lxcfs uidmap bridge-utils dnsmasq-base \
+    lxc lxcfs uidmap bridge-utils dnsmasq-base \
     gnupg lsb-release software-properties-common
 
 RUN curl -fsSL https://get.docker.com | sh && \
