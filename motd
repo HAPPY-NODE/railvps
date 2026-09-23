@@ -1,0 +1,11 @@
+
+  RAILVPS — Ubuntu mini-VPS on Railway
+  -------------------------------------
+  SSH      : root / root123
+  Proot    : vps-proot
+  LXC      : lxc-ls
+  Docker   : docker ps
+  Python   : python3, pip3, bot-venv <dir>
+  Swap     : free -h
+  Health   : printed every 60s in logs
+
