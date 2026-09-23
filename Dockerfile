@@ -22,7 +22,7 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
     cron logrotate rsyslog \
     software-properties-common gnupg lsb-release \
     build-essential cmake pkg-config \
-    procps file less which \
+    procps file less debianutils \
     && rm -rf /var/lib/apt/lists/*
 
 # ---------------------------------------------------------------
