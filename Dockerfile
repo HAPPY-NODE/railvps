@@ -39,6 +39,7 @@ RUN apt-get update -y && apt-get install -y --no-install-recommends \
 
 # Global python packages useful for bots
 RUN pip3 install --no-cache-dir -U pip setuptools wheel \
+    && pip3 install --no-cache-dir --ignore-installed blinker \
     && pip3 install --no-cache-dir \
     requests aiohttp httpx websockets \
     python-telegram-bot discord.py telebot \
